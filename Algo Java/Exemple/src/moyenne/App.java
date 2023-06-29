@@ -20,8 +20,8 @@ Fin de programme
  */
 		
 		//Declaration des Variables
-		int nombre1;
-		int nombre2;
+		double nombre1;
+		double nombre2;
 		double moyenne;
 		String maChaine = "Saisir le 1er nombre";
 		Scanner sc;
