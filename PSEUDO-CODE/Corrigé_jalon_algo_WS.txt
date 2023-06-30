@@ -1,0 +1,17 @@
+ Variable
+    prenom est une chaine de caractère
+    nom est une chaine de caractère
+    dept est un entier
+    mail1 est une chaine de caractère 
+    mail2 est une chaine de caractère
+Début du Programme
+    ecrire "saisir votre prenom" 
+    lire <-- prenom
+    ecrire "saisir votre nom"
+    lire <-- nom
+    ecrire "saisir votre departement"
+    lire <-- departement
+    mail1 <-- prenom,".",nom,dept,"@arfp.asso.fr"
+    mail2 <-- nom,dept,prenom,"@arfp.asso.fr"
+    ecrire "Mail 1 : ",mail1, "Mail 2 : ",mail2
+Fin du programme
