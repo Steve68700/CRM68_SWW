@@ -3,19 +3,19 @@ import java.util.Scanner;
 public class App {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		/*Variable
-	    Rayon est un réel
-	    Volume est un réel
-	    Aire est un réel
+	    rayon est un réel
+	    volume est un réel
+	    aire est un réel
 		Constante
 	    Pi est un réel
 	Début du Programme
-	    Ecrire "Saisir le Rayon"
-	    Lire <-- Rayon
-	    Aire <-- 4*Pi*Rayon^2
-	    Volume <-- (4/3)*Pi*Rayon^3
-	    Ecrire"l'aire de la Sphere est",Aire, "Le Volume de la Sphere est",Volume
+	    Ecrire "Saisir le rayon"
+	    Lire <-- rayon
+	    aire <-- 4*Pi*rayon^2
+	    volume <-- (4/3)*Pi*rayon^3
+	    Ecrire"l'aire de la Sphere est",aire, "Le volume de la Sphere est",volume
 	Fin du Programme
 	*/
 		
@@ -32,7 +32,7 @@ public class App {
 		rayon = sc.nextDouble();
 		aire = 4*PI*Math.pow(rayon,2);
 		volume = (4/3)*PI*Math.pow(rayon,3);
-		System.out.println("l'aire de la sphere est " +aire+ " le volume de la sphere est " +volume);
+		System.out.println("l'aire de la sphere est " +(Math.round(aire*100.0)/100.0)+ " et le volume de la sphere est " +Math.round(volume*100.0)/100.0);
 		
 		sc.close();
 	}
