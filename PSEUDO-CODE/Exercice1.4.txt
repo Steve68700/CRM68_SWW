@@ -1,17 +1,17 @@
 Variables
-    Somme est un réel
-    Intérêt est un réel
-    Années est un entier
-    ISimple est un réel
-    IComp est un réel
+    somme est un réel
+    intérêt est un réel
+    années est un entier
+    isimple est un réel
+    icomp est un réel
 Début du Programme
-    Ecrire "Saisir la Somme"
-    Lire <-- Somme 
-    Ecrire "Saisir l'Intérêt
-    Lire <-- Intérêt
+    Ecrire "Saisir la somme"
+    Lire <-- somme 
+    Ecrire "Saisir l'intérêt"
+    Lire <-- intérêt
     Ecrire "Saisir le nombre d'années"
-    Lire <-- Années
-    ISimple <-- Somme(1+Années*Intérêt)
-    IComp <-- Somme(1+Intérêt)^Années
-    Ecrire "L'Intérêt simple est", ISimple et "L'Intérêt Composer est", IComp
+    Lire <-- années
+    isimple <-- somme*(1+Années*Intérêt)
+    icomp <-- somme*(1+Intérêt)^Années
+    Ecrire "L'intérêt simple est ", isimple " et l'intérêt composer est ", icomp
 Fin du Programme

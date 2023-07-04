@@ -1,0 +1,18 @@
+	Variables
+		nombre1 est un entier
+	Debut du programme
+		Ecrire "saisir un nombre entier"
+		Lire <-- nombre1
+	Debut Si
+		Si
+			nombre1 est egale a 20
+		Alors
+			Ecrire "Le nombre est egale a 20"
+		Sinon Si
+			nombre1 est egale a 15
+		Alors
+			Ecrire "Le nombre est egale a 15"
+		Sinon
+			Ecrire "le nombre n'est pas egale a 20 et n'est pas egal  a 15"
+	Fin Si
+	Fin du Programme

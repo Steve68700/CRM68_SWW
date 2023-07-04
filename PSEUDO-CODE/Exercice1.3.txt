@@ -1,14 +1,14 @@
 Variables
-    R est un réel
-    A est un réel
-    Aire est un réel
+    rayon est un réel
+    angle est un réel
+    aire est un réel
 Constante
     Pi est réel
 Début du Programme
-    Ecrire"Saisir le Rayon(R)"
-    Lire <-- R
-    Ecrire"Saisir l'angle(A)"
-    Lire <-- A
-    Aire <-- Pi*R*2*A^360
-    Ecrire"L'Aire du secteur circulaire est", Aire
+    Ecrire"Saisir le rayon"
+    Lire <-- rayon
+    Ecrire"Saisir l'angle"
+    Lire <-- angle
+    Aire <-- Pi*rayon^2*angle/360
+    Ecrire"L'aire du secteur circulaire est ", aire
     Fin du Programme

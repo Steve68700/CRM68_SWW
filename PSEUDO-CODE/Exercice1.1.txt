@@ -1,12 +1,12 @@
 Variable
-    N1 est un entier
-    N2 est un entier
-    Moyenne es un réel
+    nombre1 est un entier
+    nombre2 est un entier
+    moyenne es un réel
 Début Programme
-    Ecrire "Saisir le 1er Nombre"
-    Lire <-- N1
-    Ecrire "Saisir le 2eme Nombre"
-    Lire <-- N2
-    Moyenne <-- (N1+N2)/2
-    Ecrire "La Moyenne est", Moyenne
+    Ecrire "Saisir le 1er nombre"
+    Lire <-- nombre1
+    Ecrire "Saisir le 2eme nombre"
+    Lire <-- nombre2
+    moyenne <-- (nombre1 + nombre2)/2
+    Ecrire "La moyenne est ", moyenne
 Fin de programme

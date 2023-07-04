@@ -1,13 +1,13 @@
 Variable
-    Rayon est un réel
-    Volume est un réel
-    Aire est un réel
+    rayon est un réel
+    volume est un réel
+    aire est un réel
 Constante
     Pi est un réel
 Début du Programme
-    Ecrire "Saisir le Rayon"
-    Lire <-- Rayon
-    Aire <-- 4*Pi*Rayon^2
-    Volume <-- (4/3)*Pi*Rayon^3
-    Ecrire"l'aire de la Sphere est",Aire, "Le Volume de la Sphere est",Volume
+    Ecrire "Saisir le rayon"
+    Lire <-- rayon
+    Aire <-- 4*Pi*rayon^2
+    Volume <-- (4/3)*Pi*rayon^3
+    Ecrire"l'aire de la sphere est ",aire, "Le volume de la sphere est ",volume
 Fin du Programme
