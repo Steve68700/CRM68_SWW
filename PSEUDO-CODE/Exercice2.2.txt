@@ -1,8 +1,8 @@
 Varible
-nombreA est un entier
-nombreB est un entier
+    nombreA est un entier
+    nombreB est un entier
 Début du Programme
-    Ecrire"Saisir le nombre A"
+    Ecrire "Saisir le nombre A"
     Lire <-- nombreA
     Ecrire "Saisir le nombre B"
     Lire <-- nombreB
