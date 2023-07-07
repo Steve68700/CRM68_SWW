@@ -1,0 +1,14 @@
+Variable
+annee est un entier
+Debutdu programme
+ecrire "Saisir une Annee : "
+lire <-- annee
+Debut Si
+    Si
+        annee / 4 && annee non /100 && annee /400
+    Alors
+        ecrire "C'est une annee bissextile"
+    Sinon
+        ecrire "Ce n'est pas une annee bissextile"
+    Fin Si
+Fin Si
