@@ -1,0 +1,15 @@
+Variable
+nombre est un entier
+Debut du programme
+    ecrire "Saisir un nombre :"
+    lire <-- nombre
+    Pour i allant de 2 a nombre-1
+        Debut Si
+            Si
+                nombre%i = 0
+            Alors 
+                ecrire "Diviseur :",i
+        Fin Si
+    Fin boucle Pour
+Fin du programme
+     

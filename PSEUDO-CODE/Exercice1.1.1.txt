@@ -1,0 +1,16 @@
+Variable
+nombre est un entier
+Debut de programme
+    ecrire "Saisir un nombre entier positif ou negatif :"
+    lire <-- nombre
+    Debut Si
+        Si 
+            le nombre est positif
+        Alors
+            ecrire "C'est un nombre positif"
+        Sinon Si
+            le nombre est negatif
+        Alors 
+            ecrire "C'est un nombre negatif"
+    Fi Si
+Fin du programme
