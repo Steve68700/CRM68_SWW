@@ -1,0 +1,21 @@
+Variable
+nombreA est un entier
+nombreB est un entier
+Debut du programme
+ecrire "Saisir un 1er nombre entier:"
+lire <-- nombreA
+ecrire "Saisir un 2e nombre entier:"
+lire <-- nombreB
+Debut Si
+    Si
+        nombreA > 0 && nombreB > 0 || (nombreA < 0 && nombreB < 0)
+    Alors
+        ecrire "Le produit des 2 nombres est positif"
+    Sinon Si
+        nombreA || nombreB = 0
+    Alors
+        ecrire "Le produit des 2 nombres est nulle"
+    Sinon
+        ecrire "Le produit des 2 nombres est negatif"
+Fin Si
+Fin du programme

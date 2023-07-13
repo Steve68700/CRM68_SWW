@@ -1,0 +1,30 @@
+Variable
+kilometre est un reel
+miles est un reel
+fermeture_prog est un booleen = faux
+quit est une chaine de caractere
+saisieutilisateur est une chaine de caractere
+Debut du programme
+Debut tant que
+    tant que
+        fermeture_prog est faux
+    faire
+        ecrire "entrez le nombre de kilometres:"
+        lire <-- saisieutilisateur
+        Debut Si
+            Si
+                saisieutilisateurest egale a quit
+            Alors
+                fermeture_prog est vrai
+            Sinon
+                kilometre <-- conversion en reel de saisieutilisateur
+            Si
+                kilometre est < 0,01 ou > 1000000
+            Alors
+                ecrire "Saisie invalide, saisissez une valeur comprise entre 0,01 et 1000000:"
+                lire <-- saisieutilisateur
+            Sinon
+                miles = kilometre / 1,609
+            Alors
+                ecrire
+
