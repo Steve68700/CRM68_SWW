@@ -5,6 +5,7 @@ fermeture_prog est un booleen = faux
 quit est une chaine de caractere
 saisieutilisateur est une chaine de caractere
 Debut du programme
+quit <-- "q"
 Debut tant que
     tant que
         fermeture_prog est faux
@@ -26,5 +27,8 @@ Debut tant que
             Sinon
                 miles = kilometre / 1,609
             Alors
-                ecrire
+                ecrire "kilometre + kilometre donne " + miles + " miles "
+        Fin Si
+Fin tant que
+Fin prigramme
 

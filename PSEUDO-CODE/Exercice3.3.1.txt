@@ -1,0 +1,28 @@
+Variables
+age est un entier
+debut du programme
+    ecrire "Quel est l'age de l'enfant ?"
+    lire <-- age
+    Debut Si
+        Si 
+            age <= 5 ans
+        Alors
+            ecrire "L'enfant n'a pas l'age pour etre inscrit"
+        Sinon Si
+            age >= 6 et <= 7 ans
+        Alors
+            ecrire "L'enfant est en poussin"
+        Sinon Si
+            age >= 8 et <= 9 ans
+        Alors
+            ecrire "L'enfant est en pupille"
+        Sinon Si
+            age >= 10 et <= 11 ans
+        Alors
+            ecrire "L'enfant est en minime"
+        Sinon
+            age >= 12 ans
+        Alors
+            ecrire "L'enfant est en cadet"
+    Fin Si
+Fin du programme

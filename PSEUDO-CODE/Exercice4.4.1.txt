@@ -1,0 +1,23 @@
+Variables
+heure est un entier
+minute est un entier
+Debut du programme
+    ecrire "Quelle heure est-il ?"
+    lire <-- heure
+    ecrire "Quelle minute est-il ?"
+    lire <-- minute
+    minute = +1 
+    Debut Si
+        Si
+            minute = 60
+        Alors
+            ecrire "heure +1 et minute 00"
+    Fin Si
+    Debut Si
+        Si
+            heure = 24
+        Alors
+            ecrire "heure 00 et minute"
+    Fin Si
+Fin programme
+    
