@@ -1,0 +1,12 @@
+Variables
+nombre est un entier
+Debut du programme
+nombre <-- 0
+Debut Tan Que
+    Tant Que
+        nombre < 1 ou nombre > 3
+    Faire
+        ecrire "Saisir un nombre entre 1 et 3:"
+        lire <-- nombre
+Fin Tant Que
+Fin du programme
