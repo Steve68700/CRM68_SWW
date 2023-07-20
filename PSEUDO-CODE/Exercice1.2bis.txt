@@ -1,0 +1,13 @@
+Variables
+rayon est un reel
+aire est un reel
+volume est u reel
+Constante
+Pi est un reel
+Debut du programme
+ecrire "Saisir le rayon:"
+lire <-- rayon
+aire = (4*Pi)*rayon^2
+volume = (4/3*Pi)*rayon^3
+ecrire ,aire, "est son aire et" ,volume, "est son volume"
+Fin du programme
