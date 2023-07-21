@@ -1,0 +1,25 @@
+Variables
+nombre est un entier
+resultat est un entier
+i est un entier
+back est une chaine de caractere
+Debut du programme
+i = 0
+Debut Tant Que
+    Tant Que
+        back = oui
+    Faire
+        ecrire "Saisir un nombre entre 1 et 10 pour connaitre sa table de multiplication:"
+        lire <-- nombre
+        Debut Pour
+            Pour
+                mutiple allant de 1 à 10
+            Faire
+                resultat = i * nombre
+                ecrire ",i, "x" ,nombre, "=" ,resultat
+        Fin pour
+        ecrire "Souhaitez vous afficher une autre table de multiplication? oui = o"
+        lire <-- back
+    Fin Tant Que
+Fin programme
+
