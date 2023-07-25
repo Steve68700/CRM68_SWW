@@ -1,0 +1,10 @@
+Variables
+tab2[6] est un tableau de caractere
+debut du programme
+tab2[0] <-- "a"
+tab2[1] <-- "e"
+tab2[2] <-- "i"
+tab2[3] <-- "o"
+tab2[4] <-- "u"
+tab2[5] <-- "y"
+Fin du programme

@@ -5,8 +5,9 @@ import java.util.Scanner;
 /*
 Variables
 somme est un reel
-nombre_magasin est un entier = 0
+nombre_magasin est un entier
 Debut du programme
+nombre_magasin = 0
 ecrire "Saisissez la somme de depart:"
 lire <-- somme
 Debut Si
@@ -18,7 +19,9 @@ Debut Si
                 somme > 0
                 Debut Si
                     Si
-                    (somme/2)+1
+                    somme - (somme/2+1) >= 0
+                Alors
+                    somme <-- somme - ((somme/2)+1)
                 Sinon
                     somme <-- 0
                 Fin Si
@@ -49,9 +52,9 @@ public class App {
 				}
 				else
 				{
-					somme = 0;
-					nombre_magasin++;
+					somme = 0;	
 				}
+				nombre_magasin++;
 			}
 		}
 		System.out.println("Vous avez fait " +nombre_magasin+ " magasin(s)");
