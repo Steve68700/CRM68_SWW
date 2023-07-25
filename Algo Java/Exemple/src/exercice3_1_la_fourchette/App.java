@@ -5,6 +5,7 @@ import java.util.Scanner;
 /*
 Variables
 nombre_myst est un entier
+essai est un entier = 0
 nombre_utilisateur est un entier
 nombre_trouve = faux
 Debut du programme
@@ -15,6 +16,7 @@ Debut Tant Que
     Faire
         ecrire "Devniner le nombre mystere entre 0 et 100:"
         lire <-- nombre_utilisateur
+        essai++
         Debut Si
             Si
                 nombre_utilisateur < nombre_myst
@@ -27,7 +29,7 @@ Debut Tant Que
             Sinon
                 nombre_trouve == vrai
             Alors
-                ecrire "Bravo vous avez trouve le nombre mystere"
+                ecrire "Bravo vous avez trouve le nombre mystere en " ,essai, " essais"
         Fin Si
 Fin Tant Que
 Fin du programme
@@ -38,6 +40,7 @@ public class App {
 	public static void main(String[] args) {
 		//Variables
 		int nombre_myst;
+		int essai = 0;
 		int nombre_utilisateur;
 		boolean nombre_trouve = false;
 		Scanner sc = new Scanner(System.in);
@@ -47,6 +50,7 @@ public class App {
 		{
 			System.out.println("Devinez le nombre mystere entre 0 et 100:");
 			nombre_utilisateur = sc.nextInt();
+			essai++;
 			if(nombre_utilisateur < nombre_myst)
 			{
 				System.out.println("Le nombre mystere est plus grand...");
@@ -58,7 +62,7 @@ public class App {
 			else
 			{
 				nombre_trouve = true;
-				System.out.println("Bravo, vous avez trouve le nombre mystere");
+				System.out.println("Bravo, vous avez trouve le nombre mystere en "+essai+ " essais");
 			}
 		
 		}

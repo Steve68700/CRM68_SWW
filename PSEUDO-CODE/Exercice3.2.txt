@@ -1,0 +1,25 @@
+Variables
+somme est un reel
+nombre_magasin est un entier = 0
+Debut du programme
+ecrire "Saisissez la somme de depart:"
+lire <-- somme
+Debut Si
+    Si
+        somme >= 1
+    Alors
+        Debut Tant Que
+            Tant Que
+                somme > 0
+                Debut Si
+                    Si
+                    (somme/2)+1
+                Sinon
+                    somme <-- 0
+                Fin Si
+                nombre_magasin <-- +1
+        Fin Tant Que     
+    Fin Si
+ecrire "Vous avez fait" ,nombre_magasin, "magasin(s)"
+Fin du programme
+

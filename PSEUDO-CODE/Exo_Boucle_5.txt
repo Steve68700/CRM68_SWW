@@ -1,0 +1,16 @@
+Variables
+nombre_depart est un entier
+factorielle est un entier
+resutat est un entier = 1
+Debut du programme
+ecrire "Saisir un nombre entier pour connaitre la somme de sa factorielle:"
+lire nombre_depart
+Debut Pour
+    Pour
+        nombre_suivant allant de 1 a nombre_depart
+    Faire
+        resultat <-- resultat * factorielle
+        factorielle ++
+Fin Pour
+ecrire "La somme de" ,nombre_depart,"! " " est ",resultat
+Fin du programme
