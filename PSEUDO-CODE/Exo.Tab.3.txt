@@ -1,0 +1,32 @@
+Variables
+nombre est un entier
+i est un entier
+tab1 est tableau d'entier
+positif est un entier = 0
+negatif est un entier = 0
+Debut du programme
+ecrire "Saisir la taille du tableau" ,(i+1), ":"
+lire <-- nombre
+tab1 <-- nombre
+Debut Pour
+    Pour
+        i allant de 0 a nombre
+    Faire
+    ecrire "Saisir un nombre:"
+        lire <-- tab1[i]
+        Debut Si
+            Si
+                tab1[i] < 0
+            Alors
+                negatif++
+            Sinon
+                positif++
+        Fin Si
+        i++
+Fin Pour
+ecrire negatif, "nombre negatif et " ,positif, " nombre positif"
+Fin du programme
+    
+    
+
+        
