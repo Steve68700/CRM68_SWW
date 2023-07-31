@@ -22,7 +22,7 @@ public class App {
 		nbCourant = 1;
 		if(nb > 2)
 		{
-			while(position > nb)
+			while(position < nb)
 			{
 				nbSuivant = nbPrecedent + nbCourant;
 				resultat = resultat +"\n\t"+ nbSuivant;
