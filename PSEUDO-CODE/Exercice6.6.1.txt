@@ -1,0 +1,21 @@
+Variables
+age est un entier
+sexe est une chaine de caractere
+Debut du programme
+ecrire "Quel est votre sexe? (homme = h et femme = f)"
+lire <-- sexe
+ecrire "Quel est votre age?"
+lire <-- age
+Debut Si
+    Si
+        age >= 18 et age <= 35 et sexe = f
+    Alors
+        ecrire "Vous etes imposable"
+    Sinon Si
+        age >= 20 et sexe = h
+    Alors
+        ecrire "Vous etes imposable"
+    Sinon
+        ecrire "Vous n'etes pas imposable"
+Fin Si
+Fin du programme

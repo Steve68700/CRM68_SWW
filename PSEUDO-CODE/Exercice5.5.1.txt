@@ -1,0 +1,32 @@
+Variables
+photocop est un entier
+facture1 est un reel
+facture2 est un reel
+facture3 est un reel
+total est un reel
+Debut du programme
+ecrire "Combien souhaitez vous de photocopies ?"
+lire <-- photocop
+facture1 = 0,10
+facture2 = 0,09
+facture3 = 0,08
+Debut Si
+    Si
+        photocop <= 10
+    Alors
+        total = photocop* facture1
+Fin Si
+Debut Si
+    Si
+        photocop < 30 et photocop > 10
+    Alors
+        total = 10*facture1 + (photocop - 10)* facture2
+Fin Si
+Debut Si
+    Si 
+        photocop > 30
+    Alors
+        total = 10*facture1 + 20*facture2 + (photocop - 30)* facture3
+Fin Si
+ecrire "Le tarif de vos photocopies est de" ,total, "euros"
+Fin de programme

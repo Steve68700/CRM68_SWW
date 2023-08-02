@@ -12,14 +12,23 @@ Debut du programme
     seconde = +1
     Debut Si
         Si
+            seconde = 60
+        Alors
+            minute+1
+            seconde = 0
+    Fin Si
+    Debut Si
+        Si
             minute = 60
         Alors
-            ecrire "heure +1 et minute 00"
+            heure+1
+            minute = 0
     Fin Si
     Debut Si
         Si
             heure = 24
         Alors
-            ecrire "heure 00 et minute"
+            heure = 0
     Fin Si
+    ecrire "Dans une seconde il sera ",heure,"h",minute,"m",seconde,"s"
 Fin programme
