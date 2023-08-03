@@ -5,7 +5,7 @@ ecrire "Saisir une Annee : "
 lire <-- annee
 Debut Si
     Si
-        annee / 4 && annee non /100 && annee /400
+        (annee / 4 && annee non /100) ou annee /400
     Alors
         ecrire "C'est une annee bissextile"
     Sinon

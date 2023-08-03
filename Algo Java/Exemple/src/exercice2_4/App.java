@@ -8,7 +8,7 @@ ecrire "Saisir une Annee : "
 lire <-- annee
 Debut Si
     Si
-        annee / 4 && /annee /100 && annee /400
+        (annee / 4 && /annee /100) ou annee /400
     Alors
         ecrire "C'est une annee bissextile"
     Sinon
@@ -31,7 +31,7 @@ public class App {
 		mod1 = annee%4;
 		mod2 = annee%100;
 		mod3 = annee%400;
-		if(mod1 == 0 && mod2 != 0 && mod3 == 0)
+		if((mod1 == 0 && mod2 != 0) || mod3 == 0)
 		{
 			System.out.println(+ annee+ " est une annee bissextile");
 		}

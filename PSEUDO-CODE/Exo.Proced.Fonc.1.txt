@@ -1,0 +1,19 @@
+Procedure
+    inversion(entier a, entier b)
+    tmp est un entier
+    tmp <-- a 
+    a <-- b 
+    b <-- tmp
+    ecrire "apres inversion: nombre a = ",a," nombre b = ,b
+Fin Procedure
+    Variables
+    nombre1 est un entier
+    nombre2 est un entier
+Debut du programme
+    ecrire "Saisir le  1er nombre:"
+    lire <-- nombre1
+    ecrire "Saisir le 2e nombre:"
+    lire <-- nombre2
+    ecrire "Avant inversion: nombre a = ",nombre1," nombre b = ",nombre2
+    inversion(nombre1,nombre2)
+Fin du programme

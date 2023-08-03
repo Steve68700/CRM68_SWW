@@ -1,0 +1,20 @@
+Fonction
+    anneebissextile(entier annee)
+    bissextile est un bouleen
+    bissextile <-- (annee / 4 && annee non /100) ou annee /400
+    retourne bissextile
+Fin Fonction
+    Variables
+    annee est un entier
+Debut du programme
+    ecrire "Saisir une annee pour savoir si elle est bissextile:"
+    lire <-- annee
+    Debut Si
+        Si
+            anneebissextile(annee)
+        Alors
+            ecrire " Avec la fonction: l'annee " ,annee, " est bissextile"
+        Sinon
+            ecrire "L'annee ",annee, "n'est pas bissextile"
+    Fin Si
+Fin du programme
