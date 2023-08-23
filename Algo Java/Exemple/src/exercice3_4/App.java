@@ -8,7 +8,7 @@ public class App {
 		//Variables
 		String chaine_de_caractere;
 		String lettre_de_alphabet;
-		int nombre_de_lettre;
+		int nombre_de_lettre = 0;
 		int i;
 		
 		Scanner sc = new Scanner(System.in);
@@ -23,9 +23,9 @@ public class App {
 		}
 		else
 		{
-			for(i = 0; i > chaine_de_caractere; i++)
+			for(i = 0; i < chaine_de_caractere.length(); i++)
 			{
-				if(lettre_de_alphabet == chaine_de_caractere[i])
+				if(lettre_de_alphabet.charAt(0) == chaine_de_caractere.charAt(i))
 				{
 					nombre_de_lettre++;
 				}
@@ -37,7 +37,7 @@ public class App {
 		}
 		else
 		{
-			System.out.println("La lettre "+lettre_de_alphabet+ "est presente "+nombre_de_lettre+ " fois");
+			System.out.println("La lettre "+lettre_de_alphabet+ " est presente "+nombre_de_lettre+ " fois");
 		}
 		
 		
