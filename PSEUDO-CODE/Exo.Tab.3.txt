@@ -5,14 +5,14 @@ tab1 est tableau d'entier
 positif est un entier = 0
 negatif est un entier = 0
 Debut du programme
-ecrire "Saisir la taille du tableau" ,(i+1), ":"
+ecrire "Saisir la taille du tableau:"
 lire <-- nombre
 tab1 <-- nombre
 Debut Pour
     Pour
         i allant de 0 a nombre
     Faire
-    ecrire "Saisir un nombre:"
+    ecrire "Saisir un nombre ",(i+1), ":"
         lire <-- tab1[i]
         Debut Si
             Si

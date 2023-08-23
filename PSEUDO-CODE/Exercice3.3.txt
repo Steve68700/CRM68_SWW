@@ -1,0 +1,35 @@
+    Variables
+    nombre est un entier
+    nombreN est un entier
+    i est un entier
+    indice est un entier = 0
+    nombrePresent est un bouleen = faux
+Debut du programme
+    ecrire "Saisir la taille du tableau:"
+    lire <-- nombre
+    tab1<-- nombre
+    Debut Pour
+        Pour
+            i allant de 0 a nombre
+        Faire
+            ecrire "Saisir un nombre ",(i+1), ":"
+            lire <-- tab1[i]
+    Fin Pour
+    tri [tab1]
+    ecrire "Saisissez un des nombres saisie avant pour connaitre son indice dans le tableau:"
+    lire <-- nombreN
+    Debut Pour
+        Pour
+            un entier j allant a tab1[j]
+            nombrePresent = vrai 
+            indice = j
+    Fin Pour
+    Debut Si
+        Si
+            nombrePresent = vrai
+        Alors
+            ecrire "Le nombre ",nombreN, "se trouve a l'indice ",indice
+        Sinon
+            ecrire "404 Not Found"
+    Fin Si
+Fin du programme

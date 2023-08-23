@@ -1,0 +1,37 @@
+Variables
+    chaine_de_caractere est une chaine de caractere
+    lettre_de_alphabet est une chaine de caractere
+    nombre_de_lettre est un entier
+    i est un entier
+Debut du programme
+    ecrire "Saisir une chaine caractere qui se termine par un point :"
+    lire <-- chaine_de_caractere
+    ecrire "Saisir une lettre pour savoir si elle est presente et combien de fois:"
+    lire <-- lettre_de_alphabet
+    Debut Si
+        Si
+            chaine_de_caractere = "" || "."
+        Alors 
+            ecrire "La Chaine est Vide"
+        Sinon
+            Debut Pour
+                Pour
+                    i allant de 0 a chaine_de_caractere
+            Debut Si
+                Si
+                    lettre_de_alphabet = chaine_de_caractere[i]
+                Alors
+                    nombre_de_lettre++
+            Fin Si
+            Fin Pour
+    Fin Si
+    Debut Si
+        Si
+            nombre_de_lettre = 0
+        Alors
+            ecrire "La lettre n'est pas presente"
+        Sinon
+            ecrire "la lettre " ,lettre_de_alphabet, " est presente " ,nombre_de_lettre, " fois"
+    Fin Si
+Fin programme
+            
