@@ -17,7 +17,7 @@ public class App {
 		chaine_de_caractere = sc.next();
 		System.out.println("Saisir une lettre pour savoir si elle est presente et combien de fois :");
 		lettre_de_alphabet = sc.next();
-		if(chaine_de_caractere == "" || chaine_de_caractere == ".")
+		if(chaine_de_caractere == " " || chaine_de_caractere == ".")
 		{
 			System.out.println("La Chaine est Vide");
 		}
