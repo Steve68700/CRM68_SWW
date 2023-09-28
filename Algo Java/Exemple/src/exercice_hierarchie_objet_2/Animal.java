@@ -47,32 +47,26 @@ public class Animal {
 			return this.communiqueComment;
 		}
 		
-		//Setter
-		public void setEspeceAnimal(String _especeAnimal)
-		{
-			this.especeAnimal = _especeAnimal;
-		}
-		
-		public void setMangeQuoi(String _mangeQuoi)
-		{
-			this.mangeQuoi = _mangeQuoi;
-		}
-		
-		public void setSeDeplaceComment(String _seDeplaceComment)
-		{
-			this.seDeplaceComment = _seDeplaceComment;
-		}
-		
-		public void setCommuniqueComment(String _communiqueComment)
-		{
-			this.communiqueComment = _communiqueComment;
-		}
-		
 		//Methodes
 		
-		public boolean manger()
+		public void manger()
 		{
-			return true;
+			System.out.println("Un "+this.especeAnimal+" est un animal qui mange "+this.mangeQuoi);
+		}
+		
+		public void seDeplacer()
+		{
+			System.out.println("Un "+this.especeAnimal+" est un animal qui se deplace "+this.seDeplaceComment);
+		}
+		
+		public void communiquer()
+		{
+			System.out.println("Un "+this.especeAnimal+" est un animal qui "+this.communiqueComment);
+		}
+		
+		public void AfficherComportement()
+		{
+			System.out.println("Un "+this.especeAnimal+ " est un animal qui mange "+this.mangeQuoi+ " qui se deplace "+this.seDeplaceComment+ " et communique "+this.communiqueComment);
 		}
 		
 		
