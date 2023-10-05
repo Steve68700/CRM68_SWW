@@ -32,44 +32,74 @@ public class PoupeeRusse {
 		//Methode
 		public boolean ouvrir()
 		{
-			if(!this.estOuverte && !this.estDansUnePoupee)//pour s'ouvrir la poupee doit etre ferme et ne doit pas deja etre dans une autre poupee
+			if(!this.estOuverte && !this.estDansUnePoupee)//pour s'ouvrir une poupee doit etre ferme et pas deja dans une autre poupee
 			{
 				System.out.println(this.nom+" est ouverte");
 				return this.estOuverte = true;
 			}
+			else if(this.estOuverte)
+			{
+				System.out.println(this.nom+" est deja ouverte");
+				return false;
+			}
 			else
 			{
-				System.out.println(this.nom+" est deja ouverte ou est deja dans une autre poupee");
+				System.out.println(this.nom+" ne peut pas s'ouvrir car elle est deja dans une autre poupee");
 				return false;
 			}
 		}
 		
 		public boolean fermer()
 		{
-			if(this.estOuverte && !this.estDansUnePoupee)//pour se fermer la poupee doit etre ouverte et ne doit pas deja etre dans une autre poupee
+			if(this.estOuverte && !this.estDansUnePoupee)//pour se fermer une poupee doit etre ouverte et pas deja etre dans une autre poupee
 			{
 				System.out.println(this.nom+" est ferme");
 				return this.estOuverte = false;
 			}
+			else if(!this.estOuverte)
+			{
+				System.out.println(this.nom+" est deja ferme");
+				return true;
+			}
 			else
 			{
-				System.out.println(this.nom+" est deja ferme ou est deja dans une autre poupee");
+				System.out.println(this.nom+" ne peut pas se fermer car elle est deja dans une autre poupee");
 				return true;
 			}
 		}
 		
 		public boolean placerDans(PoupeeRusse autre)
 		{
-			if(!this.estOuverte && !autre.contientUnePoupee && this.taille < autre.taille && autre.estOuverte)//pour etre place dans une poupee, cette poupee doit etre ferm
+			if(!this.estOuverte && this.taille < autre.taille && !autre.contientUnePoupee && !autre.estDansUnePoupee && autre.estOuverte)//pour etre place dans une poupee, celle-ci doit etre ferme et plus petite que l'autre et l'autre doit etre vide et ouverte
 			{
 				System.out.println(this.nom+" est dans "+autre.nom);
 				this.estDansUnePoupee = true;
 				autre.contientUnePoupee = true;
 				return  true;
 			}
+			else if(this.estOuverte)
+			{
+				System.out.println(this.nom+" est ouverte et ne peut donc pas etre place dans "+autre.nom);
+				return false;
+			}
+			else if(this.taille > autre.taille)
+			{
+				System.out.println(this.nom+" est trop grande et ne peut donc pas etre place dans "+autre.nom);
+				return false;
+			}
+			else if(autre.contientUnePoupee)
+			{
+				System.out.println(autre.nom+" contient deja une poupee");
+				return false;
+			}
+			else if(autre.estDansUnePoupee)
+			{
+				System.out.println(autre.nom+" est deja dans une autre poupee et ne peut donc pas s'ouvrir ou accueillir "+this.nom);
+				return false;
+			}
 			else
 			{
-				System.out.println(this.nom+" ne peut pas etre dans "+autre.nom+" car\n Soit " +this.nom+" est ouverte et/ou trop grande\n Soit "+autre.nom+" est ferme et/ou trop petite et/ou contient deja une poupee");
+				System.out.println(autre.nom+" est ferme, il faut d'abord l'ouvrir");
 				return false;
 			}
 			
@@ -77,16 +107,31 @@ public class PoupeeRusse {
 		
 		public boolean sortirDe(PoupeeRusse autre)
 		{
-			if(!this.estOuverte && autre.contientUnePoupee && autre.estOuverte)
+			if(!this.estOuverte && autre.contientUnePoupee && autre.estOuverte && !autre.estDansUnePoupee)
 			{
 				System.out.println(this.nom+" est sortie de "+autre.nom);
 				this.estDansUnePoupee = false;
 				autre.contientUnePoupee = false;
 				return true;
 			}
+			else if(this.estOuverte)
+			{
+				System.out.println(this.nom+" doit etre ferme pour sortir de "+autre.nom);
+				return false;
+			}
+			else if(!autre.contientUnePoupee)
+			{
+				System.out.println(autre.nom+" ne contient pas "+this.nom);
+				return false;
+			}
+			else if(!autre.estOuverte)
+			{
+				System.out.println(autre.nom+" doit etre ouverte");
+				return false;
+			}
 			else
 			{
-				System.out.println(this.nom+" ne peut pas sortir de "+autre.nom+" car\n Soit "+this.nom+" est ouverte\n Soit "+autre.nom+" ne contient aucune poupee et ou est ferme");
+				System.out.println(autre.nom+" est deja dans une autre poupee");
 				return false;
 			}
 		}

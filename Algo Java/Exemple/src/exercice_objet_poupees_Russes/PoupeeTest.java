@@ -13,13 +13,16 @@ public class PoupeeTest {
 			poupee2.fermer();
 			poupee2.ouvrir();
 			poupee1.sortirDe(poupee2);
-			poupee2.fermer();
-			*/
+			poupee2.fermer();*/
+			
 			//Verification que tout ne fonctionne pas
-			poupee1.placerDans(poupee2);
-			poupee1.fermer();
+			poupee1.ouvrir();
 			poupee1.ouvrir();
 			poupee2.placerDans(poupee1);
+			poupee1.placerDans(poupee2);
+			poupee2.fermer();
+			
+			
 			
 	}
 
