@@ -35,7 +35,8 @@ public class PoupeeRusse {
 			if(!this.estOuverte && !this.estDansUnePoupee)//pour s'ouvrir une poupee doit etre ferme et pas deja dans une autre poupee
 			{
 				System.out.println(this.nom+" est ouverte");
-				return this.estOuverte = true;
+				this.estOuverte = true;
+				return true;
 			}
 			else if(this.estOuverte)
 			{
@@ -54,17 +55,18 @@ public class PoupeeRusse {
 			if(this.estOuverte && !this.estDansUnePoupee)//pour se fermer une poupee doit etre ouverte et pas deja etre dans une autre poupee
 			{
 				System.out.println(this.nom+" est ferme");
-				return this.estOuverte = false;
+				this.estOuverte = false;
+				return true;
 			}
 			else if(!this.estOuverte)
 			{
 				System.out.println(this.nom+" est deja ferme");
-				return true;
+				return false;
 			}
 			else
 			{
 				System.out.println(this.nom+" ne peut pas se fermer car elle est deja dans une autre poupee");
-				return true;
+				return false;
 			}
 		}
 		
