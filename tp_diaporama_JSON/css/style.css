@@ -1,0 +1,29 @@
+.d-block{
+    height: 91.5vh;
+}
+
+.carousel-caption{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+   
+}
+
+
+h6{
+    margin-left: 15px;
+}
+
+.dropdown-menu{
+    width: auto;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+li{
+    display: flex;
+    flex-flow: row wrap;
+}

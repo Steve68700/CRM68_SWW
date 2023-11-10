@@ -1,0 +1,68 @@
+body {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "header header header header"
+    "nav main main main"
+    "nav footer footer footer";
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    
+}
+
+header > h1 {
+    grid-column: 1/6;
+}
+
+header > h1, aside{
+    margin: 0;
+    padding-left: 15px;
+}
+
+nav {
+    grid-area: nav;
+    padding-left: 15px;
+}
+
+main {
+    grid-area: main;
+    padding-left: 15px;
+}
+
+.principal{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+.principal > h2{
+    width: 100%;
+}
+
+section {
+    background-color: #ffff;
+    padding-left: 15px;
+    width: 40%;
+    margin: 10px 20px;
+}
+
+h3{
+    padding: 15px;
+    display: flex;
+}
+
+footer {
+    grid-area: footer;
+    padding-left: 15px;
+}
+
+h1, aside, nav, main, footer {
+    background-color: #bbccff ;
+}
