@@ -1,0 +1,14 @@
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\bin\Debug\net6.0\LaFourchette.exe
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\bin\Debug\net6.0\LaFourchette.deps.json
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\bin\Debug\net6.0\LaFourchette.runtimeconfig.json
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\bin\Debug\net6.0\LaFourchette.dll
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\bin\Debug\net6.0\LaFourchette.pdb
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\obj\Debug\net6.0\LaFourchette.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\obj\Debug\net6.0\LaFourchette.AssemblyInfoInputs.cache
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\obj\Debug\net6.0\LaFourchette.AssemblyInfo.cs
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\obj\Debug\net6.0\LaFourchette.csproj.CoreCompileInputs.cache
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\obj\Debug\net6.0\LaFourchette.dll
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\obj\Debug\net6.0\refint\LaFourchette.dll
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\obj\Debug\net6.0\LaFourchette.pdb
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\obj\Debug\net6.0\LaFourchette.genruntimeconfig.cache
+C:\Users\SWeillwoszczyk\source\repos\LaFourchette\obj\Debug\net6.0\ref\LaFourchette.dll

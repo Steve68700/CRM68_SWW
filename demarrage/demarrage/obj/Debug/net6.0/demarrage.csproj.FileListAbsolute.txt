@@ -1,0 +1,14 @@
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\bin\Debug\net6.0\demarrage.exe
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\bin\Debug\net6.0\demarrage.deps.json
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\bin\Debug\net6.0\demarrage.runtimeconfig.json
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\bin\Debug\net6.0\demarrage.dll
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\bin\Debug\net6.0\demarrage.pdb
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\obj\Debug\net6.0\demarrage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\obj\Debug\net6.0\demarrage.AssemblyInfoInputs.cache
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\obj\Debug\net6.0\demarrage.AssemblyInfo.cs
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\obj\Debug\net6.0\demarrage.csproj.CoreCompileInputs.cache
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\obj\Debug\net6.0\demarrage.dll
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\obj\Debug\net6.0\refint\demarrage.dll
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\obj\Debug\net6.0\demarrage.pdb
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\obj\Debug\net6.0\demarrage.genruntimeconfig.cache
+C:\Users\SWeillwoszczyk\source\repos\demarrage\demarrage\obj\Debug\net6.0\ref\demarrage.dll
