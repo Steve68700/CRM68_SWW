@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SWeillwoszczyk\\source\\repos\\AdditionTest\\AdditionTest\\AdditionTest.csproj",
+      "projectUniqueName": "C:\\Users\\SWeillwoszczyk\\Documents\\GitHub\\ABCDEV_2306_SW\\AdditionTest\\AdditionTest\\AdditionTest.csproj",
       "projectName": "AdditionTest",
-      "projectPath": "C:\\Users\\SWeillwoszczyk\\source\\repos\\AdditionTest\\AdditionTest\\AdditionTest.csproj",
+      "projectPath": "C:\\Users\\SWeillwoszczyk\\Documents\\GitHub\\ABCDEV_2306_SW\\AdditionTest\\AdditionTest\\AdditionTest.csproj",
       "packagesPath": "C:\\Users\\SWeillwoszczyk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SWeillwoszczyk\\source\\repos\\AdditionTest\\AdditionTest\\obj\\",
+      "outputPath": "C:\\Users\\SWeillwoszczyk\\Documents\\GitHub\\ABCDEV_2306_SW\\AdditionTest\\AdditionTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
