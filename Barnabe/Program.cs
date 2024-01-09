@@ -6,7 +6,6 @@
         {
             //Declaration des variables
             double somme;
-            double reste;
             int nombreMagasin = 0;
             string saisie;
             //Debut du programme
@@ -27,9 +26,7 @@
             {
                 Console.WriteLine("Barnabe n'a pas assez d'argent pour faire au moins un magasin...");
             }
-            
-
-
+            //Fin de programme
         }
 
     }
