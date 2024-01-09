@@ -12,3 +12,17 @@ C:\Users\SWeillwoszczyk\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\
 C:\Users\SWeillwoszczyk\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.pdb
 C:\Users\SWeillwoszczyk\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.genruntimeconfig.cache
 C:\Users\SWeillwoszczyk\source\repos\AdditionTest\AdditionTest\obj\Debug\net6.0\ref\AdditionTest.dll
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\bin\Debug\net6.0\AdditionTest.exe
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\bin\Debug\net6.0\AdditionTest.deps.json
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\bin\Debug\net6.0\AdditionTest.runtimeconfig.json
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\bin\Debug\net6.0\AdditionTest.dll
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\bin\Debug\net6.0\AdditionTest.pdb
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.AssemblyInfoInputs.cache
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.AssemblyInfo.cs
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.csproj.CoreCompileInputs.cache
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.dll
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\obj\Debug\net6.0\refint\AdditionTest.dll
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.pdb
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\obj\Debug\net6.0\AdditionTest.genruntimeconfig.cache
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\AdditionTest\AdditionTest\obj\Debug\net6.0\ref\AdditionTest.dll

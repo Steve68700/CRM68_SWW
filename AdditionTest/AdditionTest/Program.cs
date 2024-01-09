@@ -184,7 +184,7 @@ namespace AdditionTest
 
             //TRI DES NOMBRES++
             
-            //Declaration des variables*/
+            //Declaration des variables
             double nombreA;
             double nombreB;
             double nombreC;
@@ -230,8 +230,10 @@ namespace AdditionTest
                 else
                 {
                     Console.WriteLine("Les nombres dans l'ordre croissant sont: "+nombreA+" < "+nombreB+" < "+nombreC);
+
                 }
             }
+            //Fin du programme*/
 
         }
     }
