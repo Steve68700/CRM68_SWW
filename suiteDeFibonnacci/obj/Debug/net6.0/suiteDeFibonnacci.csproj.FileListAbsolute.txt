@@ -1,0 +1,14 @@
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\bin\Debug\net6.0\suiteDeFibonnacci.exe
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\bin\Debug\net6.0\suiteDeFibonnacci.deps.json
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\bin\Debug\net6.0\suiteDeFibonnacci.runtimeconfig.json
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\bin\Debug\net6.0\suiteDeFibonnacci.dll
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\bin\Debug\net6.0\suiteDeFibonnacci.pdb
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\obj\Debug\net6.0\suiteDeFibonnacci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\obj\Debug\net6.0\suiteDeFibonnacci.AssemblyInfoInputs.cache
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\obj\Debug\net6.0\suiteDeFibonnacci.AssemblyInfo.cs
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\obj\Debug\net6.0\suiteDeFibonnacci.csproj.CoreCompileInputs.cache
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\obj\Debug\net6.0\suiteDeFibonnacci.dll
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\obj\Debug\net6.0\refint\suiteDeFibonnacci.dll
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\obj\Debug\net6.0\suiteDeFibonnacci.pdb
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\obj\Debug\net6.0\suiteDeFibonnacci.genruntimeconfig.cache
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\suiteDeFibonnacci\obj\Debug\net6.0\ref\suiteDeFibonnacci.dll

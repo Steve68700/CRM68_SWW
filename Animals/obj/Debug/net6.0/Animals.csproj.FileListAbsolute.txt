@@ -1,0 +1,4 @@
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\Animals\obj\Debug\net6.0\Animals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\Animals\obj\Debug\net6.0\Animals.AssemblyInfoInputs.cache
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\Animals\obj\Debug\net6.0\Animals.AssemblyInfo.cs
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\Animals\obj\Debug\net6.0\Animals.csproj.CoreCompileInputs.cache
