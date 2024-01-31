@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SWeillwoszczyk\\source\\repos\\demarrage\\demarrage\\demarrage.csproj": {}
+    "C:\\Users\\SWeillwoszczyk\\Documents\\GitHub\\ABCDEV_2306_SW\\demarrage\\demarrage\\demarrage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SWeillwoszczyk\\source\\repos\\demarrage\\demarrage\\demarrage.csproj": {
+    "C:\\Users\\SWeillwoszczyk\\Documents\\GitHub\\ABCDEV_2306_SW\\demarrage\\demarrage\\demarrage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SWeillwoszczyk\\source\\repos\\demarrage\\demarrage\\demarrage.csproj",
+        "projectUniqueName": "C:\\Users\\SWeillwoszczyk\\Documents\\GitHub\\ABCDEV_2306_SW\\demarrage\\demarrage\\demarrage.csproj",
         "projectName": "demarrage",
-        "projectPath": "C:\\Users\\SWeillwoszczyk\\source\\repos\\demarrage\\demarrage\\demarrage.csproj",
+        "projectPath": "C:\\Users\\SWeillwoszczyk\\Documents\\GitHub\\ABCDEV_2306_SW\\demarrage\\demarrage\\demarrage.csproj",
         "packagesPath": "C:\\Users\\SWeillwoszczyk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SWeillwoszczyk\\source\\repos\\demarrage\\demarrage\\obj\\",
+        "outputPath": "C:\\Users\\SWeillwoszczyk\\Documents\\GitHub\\ABCDEV_2306_SW\\demarrage\\demarrage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
