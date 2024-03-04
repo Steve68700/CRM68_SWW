@@ -1,0 +1,112 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+   margin: 0;
+}
+
+header{
+    background-color: #0065D1;
+    font-family: Arial, sans-serif;
+}
+
+#alleraucontenu{
+    font-size: 1.4rem;
+    color: white;
+}
+
+nav{
+    list-style-type: none;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+main{
+    
+}
+
+h1{
+    font-size: 3.2rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 2.2rem;
+}
+
+h4{
+    font-size: 2.2rem;
+}
+
+.section1{
+    text-align: justify;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.section2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-column: repeat(5,1fr);
+    grid-row: repeat(3,1fr);
+}
+
+.section2 h3{
+    
+    background-color: aqua;
+}
+
+.case1, .case2, .case3, .case4{
+    box-shadow: 1px 3px 5px grey;
+    border-radius: 10px;
+    display: grid;
+    grid-row: 2/3;
+    width: 400px;
+    height: 200px;
+    background-color: #9BC9F7;
+}
+
+.section3{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.section4{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.section5{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.section6{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+footer{
+    font-family: Arial, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    background-color: #0065D1;
+}
+#colormail{
+    color: white;
+}
