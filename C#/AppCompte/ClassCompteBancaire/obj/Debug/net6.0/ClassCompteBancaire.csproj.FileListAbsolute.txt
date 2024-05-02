@@ -1,0 +1,11 @@
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\C#\AppCompte\ClassCompteBancaire\bin\Debug\net6.0\ClassCompteBancaire.deps.json
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\C#\AppCompte\ClassCompteBancaire\bin\Debug\net6.0\ClassCompteBancaire.dll
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\C#\AppCompte\ClassCompteBancaire\bin\Debug\net6.0\ClassCompteBancaire.pdb
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\C#\AppCompte\ClassCompteBancaire\obj\Debug\net6.0\ClassCompteBancaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\C#\AppCompte\ClassCompteBancaire\obj\Debug\net6.0\ClassCompteBancaire.AssemblyInfoInputs.cache
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\C#\AppCompte\ClassCompteBancaire\obj\Debug\net6.0\ClassCompteBancaire.AssemblyInfo.cs
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\C#\AppCompte\ClassCompteBancaire\obj\Debug\net6.0\ClassCompteBancaire.csproj.CoreCompileInputs.cache
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\C#\AppCompte\ClassCompteBancaire\obj\Debug\net6.0\ClassCompteBancaire.dll
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\C#\AppCompte\ClassCompteBancaire\obj\Debug\net6.0\refint\ClassCompteBancaire.dll
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\C#\AppCompte\ClassCompteBancaire\obj\Debug\net6.0\ClassCompteBancaire.pdb
+C:\Users\SWeillwoszczyk\Documents\GitHub\ABCDEV_2306_SW\C#\AppCompte\ClassCompteBancaire\obj\Debug\net6.0\ref\ClassCompteBancaire.dll

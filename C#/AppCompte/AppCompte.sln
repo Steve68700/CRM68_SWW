@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCompte", "AppCompte\AppCompte.csproj", "{B718D5D6-7ADA-47ED-B585-369D4E3354AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassCompteBancaire", "ClassCompteBancaire\ClassCompteBancaire.csproj", "{C853BE4E-3A09-427C-9E05-6879ED6E8F65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B718D5D6-7ADA-47ED-B585-369D4E3354AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B718D5D6-7ADA-47ED-B585-369D4E3354AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B718D5D6-7ADA-47ED-B585-369D4E3354AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B718D5D6-7ADA-47ED-B585-369D4E3354AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C853BE4E-3A09-427C-9E05-6879ED6E8F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C853BE4E-3A09-427C-9E05-6879ED6E8F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C853BE4E-3A09-427C-9E05-6879ED6E8F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C853BE4E-3A09-427C-9E05-6879ED6E8F65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A2C3676-D8FC-48FA-B573-5A4CB26E5802}
+	EndGlobalSection
+EndGlobal
