@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AppPoint/1.0.0": {
+        "dependencies": {
+          "Point": "1.0.0"
+        },
+        "runtime": {
+          "AppPoint.dll": {}
+        }
+      },
+      "Point/1.0.0": {
+        "runtime": {
+          "Point.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppPoint/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Point/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

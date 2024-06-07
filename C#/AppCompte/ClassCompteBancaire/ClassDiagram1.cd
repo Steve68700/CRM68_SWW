@@ -3,7 +3,7 @@
   <Class Name="ClassCompteBancaire.Compte">
     <Position X="3" Y="2.75" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAACIAAAACAAgAAgAAEAAAABAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAACoAgAACAAgAAgAAEAAAQBAAA=</HashCode>
       <FileName>Compte.cs</FileName>
     </TypeIdentifier>
   </Class>

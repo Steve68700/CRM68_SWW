@@ -48,6 +48,7 @@
             this.decouvertAutorise = _decouvertAutorise;
         }
 
+        //Methodes
         public void Crediter(double _montant) // Montant que l'on veut crediter sur le solde actuel
         {
             this.solde += _montant >= 0? _montant : 0;   
@@ -66,7 +67,7 @@
             }
         }
 
-        public override string ToString()
+        public override string ToString() // Permet d'afficher un resume du compte
         {
             return "Numero : " + numero + "\n Nom : " + nom + " \n Solde : " + solde + " \n Decouvert Autorise : " + decouvertAutorise+ "\n" ; 
         }
@@ -85,6 +86,5 @@
                 return false;
             }
         }
-
     }
 }
