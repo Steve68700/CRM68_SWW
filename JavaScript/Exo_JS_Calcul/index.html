@@ -5,43 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercice Objet Calculs en JS</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="/js/script.js"  defer></script>
 
 </head>
 
 <body>
     <fieldset>
-        <p>Qté:</p>
-        <div>
-            <input type="text" name="txtdate" id="" placeholder="" >
+        
+        <div class="form">
+            Qté1:<input type="text" name="quantite1" id="quantite1" value= "1" class="saisie">
+      
+            Prix unitaire1:<input type="number" name="prixUnitaire1" id="prixUnitaire1" value="0" class="saisie" >
+        
+            C.A.1:<input type="number" name="CA1" id="CA1" readonly class="read">
         </div>
 
-        <p>Prix unitaire:</p>
-        <div>
-            <input type="text" name="txtdate" id="" placeholder="" >
+        <div class="form">
+            Qté2:<input type="text" name="quantite2" id="quantite2" value="1" class="saisie">
+      
+            Prix unitaire2:<input type="number" name="prixUnitaire2" id="prixUnitaire2" value="0" class="saisie">
+        
+            C.A.2:<input type="number" name="CA2" id="CA2" readonly class="read">
         </div>
 
-        <p>Prix:</p>
-        <div>
-            <input type="text" name="txtdate" id="" placeholder="" >
-        </div>
-
-        <p>Qté:</p>
-        <div>
-            Qté:<input type="text" name="txtdate" id="" placeholder="" >
-        </div>
+        <hr class="styleHr">
 
         <div>
-            Prix unitaire:<input type="text" name="txtdate" id="" placeholder="" >
-        </div>
-
-        <div>
-            Prix:<input type="text" name="txtdate" id="" placeholder="" >
-        </div>
-
-        <hr>
-        <div>
-            <input type="text" name="txtdate" id="" placeholder="" >
+            <input type="number" name="txtdate" id="total" name="total" readonly class="read">
         </div>
 
     </fieldset>

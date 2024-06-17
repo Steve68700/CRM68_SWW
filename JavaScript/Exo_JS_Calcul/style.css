@@ -1,6 +1,31 @@
 fieldset{
-    width: 96%;
     border-radius: 12px;
     background-color: #70ad70;
     padding: 30px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form{
+    margin-bottom: 12px;
+}
+#total {
+    display: block;
+    float: right;
+    margin-right: 7%;
+}
+
+.styleHr{
+    border: 1px solid #000
+}
+
+hr {
+    color: black;
+    width: 23%;
+    margin-left: 70%;
+}
+
+.read{
+    background-color: #cccccc;
 }
