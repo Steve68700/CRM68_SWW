@@ -1,0 +1,60 @@
+:root{
+    --clr-1:#e6bbcc;
+    --clr-2:#29274b;
+    --clr-3:#7e529e;
+    --clr-4:#d295be;
+    --clr-5:#ffffff;
+    --clr-6:#022937;
+}
+
+body{
+    background-color: var(--clr-1);
+}
+
+.body-header{
+    background-color: var(--clr-2);
+}
+
+.body-header h1{
+    color: var(--clr-1);
+}
+
+.body-header h1::first-letter{
+    color: var(--clr-5);
+}
+
+
+
+nav[role="navigation"]{
+    background-color: var(--clr-3);
+}
+
+menu a{
+    color: var(--clr-5);
+    background-color: var(--clr-2);
+}
+
+menu a:hover{
+    color: var(--clr-2);
+    background-color: var(--clr-4);
+}
+
+main{
+    background-color: var(--clr-3);
+}
+
+main aside{
+    background-color: var(--clr-4);
+}
+
+main section{
+    background-color: var(--clr-5);
+}
+
+footer{
+    background-color: var(--clr-6);
+}
+
+footer a{
+    color: var(--clr-1);
+}
