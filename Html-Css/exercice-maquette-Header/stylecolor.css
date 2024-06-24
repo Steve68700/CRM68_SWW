@@ -1,4 +1,6 @@
-:root{
+/*GESTION DES COULEURS*/
+
+    :root{
     --clr-1:#e6bbcc;
     --clr-2:#29274b;
     --clr-3:#7e529e;
@@ -7,9 +9,17 @@
     --clr-6:#022937;
 }
 
+/*GESTION DU BODY*/
+
 body{
     background-color: var(--clr-1);
 }
+
+a:hover{
+    color: yellow;
+}
+
+/*GESTION DU HEADER*/
 
 .body-header{
     background-color: var(--clr-2);
@@ -23,7 +33,7 @@ body{
     color: var(--clr-5);
 }
 
-
+/*GESTION DU MENU NAV*/
 
 nav[role="navigation"]{
     background-color: var(--clr-3);
@@ -39,6 +49,8 @@ menu a:hover{
     background-color: var(--clr-4);
 }
 
+/*GESTION DU MAIN*/
+
 main{
     background-color: var(--clr-3);
 }
@@ -50,6 +62,8 @@ main aside{
 main section{
     background-color: var(--clr-5);
 }
+
+/*GESTION DU FOOTER*/
 
 footer{
     background-color: var(--clr-6);
