@@ -3,32 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercice Objet Couleurs en JS</title>
+    <title>Exercice Objet Couleurs en VueJS</title>
     <link rel="stylesheet" href="style.css">
-    <script src="/script.js" defer></script>
-
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="script.js" type="module"></script>
 </head>
+<body>
 
-<body class="bodyColor">
-    
-    <h1>Changement de couleurs</h1>
-
-    <fieldset>
-        
-        <div class="div1">
-            <input type="text" name="text" id="color1" class="saisie">
-            <input type="text" name="text" id="color2" class="saisie">
-            <input type="text" name="text" id="color3" class="saisie">
-        </div>
-        <div class="div2">
-            <input type="button" value="Rouge" name="btnRouge" id="btnRouge" class="button">
-            <input type="button" value="Vert" name="btnVert" id="btnVert" class="button">
-            <input type="button" value="Bleu" name="btnBleu" id="btnBleu" class="button">
-        </div>
-
-    </fieldset>
-
+    <div id="appColors">
+    <div id="background" :style="{'background-color': backgroundClr}">
+        <h1>Changement de couleurs</h1>
+        <form>
+            <input type="text" v-model="redInput" maxlength="2" pattern="[A-F0-9]{2}" @input="inputColor">
+            <input type="text" v-model="greenInput" maxlength="2" pattern="[A-F0-9]{2}" @input="inputColor">
+            <input type="text" v-model="blueInput" maxlength="2" pattern="[A-F0-9]{2}" @input="inputColor">
+            <button type="button" @click="changeColor" data-clr="red">Rouge</button>
+            <button type="button" @click="changeColor" data-clr="green">Vert</button>
+            <button type="button" @click="changeColor" data-clr="blue">Bleu</button>
+        </form>
+    </div>
+    </div>
 </body>
-
-
 </html>

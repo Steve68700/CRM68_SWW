@@ -1,14 +1,44 @@
-let bouton1 = document.getElementById("btnRouge");
-let bouton2 = document.getElementById("btnVert");
-let bouton3 = document.getElementById("btnBleu");
+const testClr= /[A-F0-9]{2}/
 
-let saisie1 = document.getElementById("color1");
-let saisie2 = document.getElementById("color2");
-let saisie3 = document.getElementById("color3");
+const app={
+    data(){
+        return{
+            backgroundClr: '#white',
+            redInput: 'B1',
+            greenInput:'CE',
+            blueInput:'FC',
+        }
+    },
 
-bouton1.onclick= myFunction()
+    methods: {
+        changeColor(_event){
+            console.log(_event); //données de l'évènement déclenché
+            console.log(_event.target); //l'élément qui a déclenché l'évènement
+            console.log(_event.target.type); //accès à l'attribut "type" de l'élément
+            console.log(_event.target.dataset); //accès au dataset (tous les attributs qui commencent par "data")
 
-function myFunction() {
-    
-    document.getElementById(".bodycolor").backgroundColor
-  }
+            this.backgroundClr= _event.target.dataset.clr;
+        },
+
+        inputColor(){
+            if(!testClr.test(this.redInput) || !testClr.test(this.greenInput) || !testClr.test(this.blueInput)){
+                console.log("erreur");
+                return
+            }
+            this.backgroundClr= '#'+ this.redInput + this.greenInput + this.blueInput;
+
+            if(testClr.test(this.redInput) && testClr.test(this.greenInput) && testClr.test(this.blueInput)){
+                this.backgroundClr= '#'+ this.redInput + this.greenInput + this.blueInput;
+            }
+            else{
+                console.log("erreur");
+            }
+        }
+    }
+}
+
+document.getElementById('appColors').addEventListener('click', function(_event){
+
+})
+
+Vue.createApp(app).mount('#appColors');

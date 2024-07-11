@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple VueJS</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./script.js" type="module"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="monApp">
+        <p>Le nombre est: {{ nombre }} !</p>
+        <p v-if="nombre > 8">Le nombre est trop grand</p>
+        <p v-else>Le nombre est trop petit</p>
+        <button type="button" @click="diminuer">-</button>
+        <button type="button" @click="incrementer">+</button>
+        <br>
+        <input type="text" v-model="texteDynamique">
+        <p>{{ texteDynamique }}</p>
+        <label for="nbA">Nombre A</label>
+        <input type="text" id="nbA"  v-model="nombreA">
+        <label for="nbB">Nombre B</label>
+        <input type="text"  v-model="nombreB">
+        <p>A + B = {{ nbAplusNbB }}</p>
+        <ul>
+            <li v-for="personne of personnes">{{ personne }}</li>
+        </ul>
+        <button @click="ajouterToto">Ajouter Toto</button>
+    </div>
+</body>
+</html>

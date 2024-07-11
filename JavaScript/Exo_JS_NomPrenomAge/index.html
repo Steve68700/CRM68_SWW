@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice Nom Prénon Age</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./script.js" type="module"></script>
+</head>
+
+<body>
+    <div id="app">
+        <h1>Saisissez un prénom et un âge</h1>
+        <form>
+        <label for="txtprenom">Prénom:<input type="text" id="txtprenom" name="txtprenom"></label>
+        <label for="txtage">Âge:<input type="number" id="txtage" name="txtage"></label>
+        <button type="button" id="btnvalider">Valider</button>
+        <input type="reset" value="vider" />
+        <hr>
+        <p id="text">Compléter/corriger le formulaire.</p>
+        <p id="text2"></p>
+    </form>   
+    </div>
+</body>
+</html>
