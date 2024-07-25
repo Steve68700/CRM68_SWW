@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo Date Astro</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./script.js" type="module"></script>
+</head>
+
+<body id="app">
+    <h1>Ma date de naissance</h1>
+    <form>
+        <label for="dateDeNaissance" id="dateNaissance">Date de naissance :</label>
+        <input type="datetime-local" id="dateTime" v-model="date.time" required>
+        <button @click="validateForm" type="button">Valider</button>
+    </form>
+    <p>
+        {{ formResult }}
+    </p>
+    
+</body>
+</html>

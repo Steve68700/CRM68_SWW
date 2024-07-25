@@ -9,7 +9,7 @@ html{
 body{
     font-size: 1.6rem;
     font-family: Verdana, Tahoma, sans-serif;
-    margin: 0;
+    margin: 30px 100px;
     padding: 20px;
     border: solid;
     border-color: blue;
@@ -20,6 +20,32 @@ h1{
     margin-bottom: 10px;
 }
 
+#prenom{
+    font-size: 1rem;
+    padding: 15px 5px 5px 5px;
+    width: 10%;
+    border-color:blue;
+}
+
+#txtage{
+    margin-left: 20px;
+}
+
+#age{
+    font-size: 1rem;
+    padding: 15px 5px 5px 5px;
+    width: 5%;
+    border-color:blue;
+}
+
+button{
+    font-size: 1rem;
+    padding: 15px 5px 5px 5px;
+    margin-left: 20px;
+    border-color: blue;
+    color: blue;
+}
+
 hr{
-    border: 2px;
+    border: 1px solid;
 }

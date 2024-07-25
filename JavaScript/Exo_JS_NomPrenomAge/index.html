@@ -15,7 +15,7 @@
         <label for="prenom">Prénom: </label>
         <input type="text" id="prenom" v-model="person.firstname" required>
 
-        <label for="age">Âge: </label>
+        <label for="age" id="txtage">Âge: </label>
         <input type="number" id="age" v-model="person.age" required>
 
         <button @click="validateForm" type="button">Valider</button>
