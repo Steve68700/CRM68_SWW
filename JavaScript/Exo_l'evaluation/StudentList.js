@@ -6,6 +6,7 @@ export class StudentList
      *Gère la liste des étudiants
      */
     constructor()
+        /**@var {Array} student la liste d'étudiants */
     {
         this.students = [];
     }

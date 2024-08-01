@@ -22,7 +22,7 @@ function createCell(data)
 /**
  * Crée une ligne de tableau contenant les informations d'un étudiant
  * @param {Stundent} aStudent l'étudiant
- * return {HtmlElement} la ligne nouvellement créée
+ * @return {HtmlElement} la ligne nouvellement créée
  */
 function createOneRow(aStudent)
 {
@@ -39,7 +39,8 @@ function createOneRow(aStudent)
 function createRows()
 {
     let tbody = document.getElementById('gradeTable');
-    for(let aStudent of myStudentList.students){
-        tbody.appendChild(createOneRow(aStudent));
+    for(let aStudent of myStudentList.students)
+    {
+            tbody.appendChild(createOneRow(aStudent));
     }
 }

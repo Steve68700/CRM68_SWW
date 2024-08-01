@@ -9,9 +9,10 @@ export class Student
     constructor(_fullname, _grade)
     {
         this.fullname = _fullname;
-        this._grade = _grade;
+        this.grade = parseInt(_grade);
         this.lastname = '';
         this.firstname = '';
+        this.passed = this.grade >= 12; //false = non obtenu / true = obtenu
         this.splitFullname();
     }
 
