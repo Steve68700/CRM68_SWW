@@ -12,8 +12,8 @@ export class FootballMatch
     {
         this.team1 = _team1;
         this.team2 = _team2;
-        this.score1 = [];
-        this.score2 = [];
+        this.score1 = _score1[1];
+        this.score2 = score2[2];
         //this.splitScore();
     }
 

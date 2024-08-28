@@ -30,8 +30,8 @@ function createOneRow(aMatch)
     const tr = document.createElement('tr');
     tr.appendChild(createCell(aMatch.team1));
     tr.appendChild(createCell(aMatch.team2));
-    tr.appendChild(createCell(aMatch.score1));
-    tr.appendChild(createCell(aMatch.score2));
+    tr.appendChild(createCell(aMatch.score1[1]));
+    tr.appendChild(createCell(aMatch.score2[2]));
     return tr;
 }
 
